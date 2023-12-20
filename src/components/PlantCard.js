@@ -9,7 +9,7 @@ function PlantCard({plant}) {
   const handleClick = () => {
     setIsInStock(!isInStock);
   }
- 
+
   return (
     <li className="card">
       <img src={image} alt={name} />
